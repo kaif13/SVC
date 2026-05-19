@@ -5,11 +5,13 @@
 Your website is ready for deployment on Netlify!
 
 ### Build Status
+
 - ✅ Production build: **Successful**
 - ✅ Linting: **Passed**
 - ✅ Build artifacts: Generated in `dist/` folder
 
 ### Configuration Files Created
+
 - **netlify.toml**: Netlify deployment configuration
 - **.gitignore**: Git ignore rules for node_modules and build artifacts
 
@@ -54,13 +56,17 @@ netlify deploy --prod
 ## Environment Configuration
 
 ### Build Configuration
+
 The `netlify.toml` file includes:
+
 - Build command: `npm run build`
 - Publish directory: `dist`
 - Redirect rules for SPA routing (important for React Router)
 
 ### Environment Variables (if needed)
+
 If your site requires environment variables:
+
 1. Go to Netlify Site Settings → Build & Deploy → Environment
 2. Add any environment variables needed
 3. Redeploy the site
@@ -71,7 +77,7 @@ After deployment, verify:
 
 1. **Homepage loads**: Check the hero section and navigation
 2. **Navigation works**: Test all menu items and internal links
-3. **Results page**: 
+3. **Results page**:
    - Navigate to Results
    - Test roll number lookup
    - Verify "Open Result" button opens result sheet in new tab
@@ -89,15 +95,18 @@ After deployment, verify:
 ## Troubleshooting
 
 ### Build Fails on Netlify
+
 - Check the build logs in Netlify dashboard
 - Ensure `package.json` is in the root directory
 - Verify Node.js version (v16+ recommended)
 
 ### Pages not loading / 404 errors
+
 - The `netlify.toml` includes SPA redirects
 - All routes should point to index.html automatically
 
 ### Styling looks broken
+
 - Clear browser cache (Ctrl+F5 or Cmd+Shift+R)
 - Check that Tailwind CSS file is loaded (in Network tab)
 

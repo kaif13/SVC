@@ -558,16 +558,33 @@ const ResultSheet = ({ rollNumber }) => {
                   This document is generated for preview only. Official
                   certificates will be issued by the college authorities.
                 </p>
+                <img
+                  src="/image.png"
+                  alt="Swami Vivekanand College result verified stamp"
+                  className="mt-5 h-32 w-32 object-contain"
+                />
               </div>
               <div className="rounded-[1.5rem] border border-slate-200 bg-slate-50 p-6 text-sm text-slate-700">
                 <p className="font-semibold text-slate-900">Registrar</p>
-                <p className="mt-6 text-sm text-slate-600">Signature</p>
+                <p className="mt-8 font-serif text-2xl italic text-slate-900">
+                  Dr. Nandini Rao
+                </p>
+                <div className="mt-2 h-px w-48 bg-slate-400" />
+                <p className="mt-3 text-sm text-slate-600">
+                  Authorized Signature
+                </p>
               </div>
               <div className="rounded-[1.5rem] border border-slate-200 bg-slate-50 p-6 text-sm text-slate-700">
                 <p className="font-semibold text-slate-900">
                   Controller of Exams
                 </p>
-                <p className="mt-6 text-sm text-slate-600">Signature</p>
+                <p className="mt-8 font-serif text-2xl italic text-slate-900">
+                  Prof. Arvind Menon
+                </p>
+                <div className="mt-2 h-px w-48 bg-slate-400" />
+                <p className="mt-3 text-sm text-slate-600">
+                  Authorized Signature
+                </p>
               </div>
             </div>
 

@@ -9,6 +9,7 @@ import CTASection from "./components/CTASection";
 import ResultsPage from "./components/ResultsPage";
 import ResultSheet from "./components/ResultSheet";
 import ApplyModal from "./components/ApplyModal";
+import { collegeData } from "./data/collegeData";
 
 function App() {
   const [rollQuery, setRollQuery] = useState(() => {
@@ -101,11 +102,9 @@ function App() {
                   community of learners and achievers.
                 </p>
                 <div className="space-y-2 text-sm text-secondary-600">
-                  <p>
-                    📍 123 University Road, Lucknow, Uttar Pradesh 226001, India
-                  </p>
-                  <p>📞 +91 522 123 4567</p>
-                  <p>✉️ info@svcollege.edu.in</p>
+                  <p>Address: {collegeData.contact.address}</p>
+                  <p>Phone: {collegeData.contact.phone}</p>
+                  <p>Email: {collegeData.contact.email}</p>
                 </div>
               </div>
 
@@ -212,8 +211,7 @@ function App() {
 
             <div className="mt-8 pt-8 border-t border-slate-200 text-center">
               <p className="text-sm text-secondary-500">
-                © 2024 Swami Vivekanand College. All rights reserved. | Demo
-                website • All content is fictional.
+                © 2024 Swami Vivekanand College. All rights reserved.
               </p>
             </div>
           </footer>

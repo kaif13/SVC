@@ -57,7 +57,7 @@ const AboutSection = () => {
           <div className="relative">
             <div className="aspect-w-4 aspect-h-3 rounded-lg overflow-hidden shadow-lg">
               <img
-                src="https://images.unsplash.com/photo-1562774053-701939374585?w=600&h=400&fit=crop"
+                src="https://images.unsplash.com/photo-1607237138185-eedd9c632b0b?w=600&h=400&fit=crop"
                 alt="College Campus"
                 className="w-full h-full object-cover"
               />

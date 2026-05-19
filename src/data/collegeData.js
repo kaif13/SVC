@@ -4,11 +4,12 @@ export const collegeData = {
   description:
     "Swami Vivekanand College is committed to providing quality education and fostering holistic development of students through innovative teaching methods and comprehensive learning experiences.",
   established: "1995",
-  location: "Lucknow, Uttar Pradesh, India",
+  location: "Bengaluru, Karnataka, India",
   contact: {
-    phone: "+91 522 123 4567",
+    phone: "+91 80 4123 4567",
     email: "info@svcollege.edu.in",
-    address: "123 University Road, Lucknow, Uttar Pradesh 226001, India",
+    address:
+      "No. 42, Knowledge Park Road, Near Electronic City, Bengaluru, Karnataka 560100, India",
   },
   stats: {
     students: "5000+",
@@ -56,7 +57,7 @@ export const courses = [
     description:
       "Advanced studies in various scientific disciplines with research focus.",
     image:
-      "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=400&h=250&fit=crop",
+      "https://images.unsplash.com/photo-1576086213369-97a306d36557?w=400&h=250&fit=crop",
     departments: ["Physics", "Chemistry", "Mathematics", "Computer Science"],
   },
   {
@@ -119,20 +120,20 @@ export const departments = [
   {
     id: 5,
     name: "English Literature",
-    head: "Prof. Ramesh Gupta",
+    head: "Dr. Ananya Rao",
     description: "Study of literature, language, and critical thinking.",
     image:
-      "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=400&h=250&fit=crop",
+      "https://images.unsplash.com/photo-1519682337058-a94d519337bc?w=400&h=250&fit=crop",
     faculty: 6,
     students: 120,
   },
   {
     id: 6,
     name: "Business Administration",
-    head: "Dr. Meera Jain",
+    head: "Dr. Kavya Menon",
     description: "Management education for future business leaders.",
     image:
-      "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=250&fit=crop",
+      "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=400&h=250&fit=crop",
     faculty: 9,
     students: 250,
   },
@@ -142,18 +143,18 @@ export const faculty = [
   {
     id: 1,
     name: "Dr. Rajesh Kumar",
-    designation: "Professor & Head",
+    designation: "Head of Department",
     department: "Computer Science",
     qualification: "Ph.D. in Computer Science",
     experience: "15+ years",
     image:
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop&crop=face",
+      "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=200&h=200&fit=crop&crop=face",
     email: "rajesh.kumar@svcollege.edu.in",
   },
   {
     id: 2,
     name: "Dr. Priya Sharma",
-    designation: "Associate Professor",
+    designation: "Head of Department",
     department: "Physics",
     qualification: "Ph.D. in Physics",
     experience: "12+ years",
@@ -164,7 +165,7 @@ export const faculty = [
   {
     id: 3,
     name: "Dr. Amit Singh",
-    designation: "Assistant Professor",
+    designation: "Head of Department",
     department: "Chemistry",
     qualification: "Ph.D. in Chemistry",
     experience: "8+ years",
@@ -175,7 +176,7 @@ export const faculty = [
   {
     id: 4,
     name: "Dr. Sunita Patel",
-    designation: "Professor",
+    designation: "Head of Department",
     department: "Mathematics",
     qualification: "Ph.D. in Mathematics",
     experience: "18+ years",
@@ -185,25 +186,25 @@ export const faculty = [
   },
   {
     id: 5,
-    name: "Prof. Ramesh Gupta",
-    designation: "Professor",
+    name: "Dr. Ananya Rao",
+    designation: "Head of Department",
     department: "English Literature",
     qualification: "M.A., Ph.D. in English",
     experience: "20+ years",
     image:
       "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&h=200&fit=crop&crop=face",
-    email: "ramesh.gupta@svcollege.edu.in",
+    email: "ananya.rao@svcollege.edu.in",
   },
   {
     id: 6,
-    name: "Dr. Meera Jain",
-    designation: "Associate Professor",
+    name: "Dr. Kavya Menon",
+    designation: "Head of Department",
     department: "Business Administration",
     qualification: "Ph.D. in Business Administration",
     experience: "10+ years",
     image:
       "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200&h=200&fit=crop&crop=face",
-    email: "meera.jain@svcollege.edu.in",
+    email: "kavya.menon@svcollege.edu.in",
   },
 ];
 
@@ -225,7 +226,7 @@ export const newsEvents = [
     description:
       "State-of-the-art computer lab equipped with latest technology inaugurated by Chief Guest.",
     image:
-      "https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?w=400&h=250&fit=crop",
+      "https://images.unsplash.com/photo-1526378722484-bd91ca387e72?w=400&h=250&fit=crop",
     type: "news",
   },
   {
@@ -262,21 +263,21 @@ export const gallery = [
     id: 2,
     title: "Library",
     image:
-      "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=600&h=400&fit=crop",
     category: "facilities",
   },
   {
     id: 3,
     title: "Computer Lab",
     image:
-      "https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1581092921461-eab62e97a780?w=600&h=400&fit=crop",
     category: "facilities",
   },
   {
     id: 4,
     title: "Sports Ground",
     image:
-      "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1526232761682-d26e03ac148e?w=600&h=400&fit=crop",
     category: "sports",
   },
   {
@@ -290,7 +291,7 @@ export const gallery = [
     id: 6,
     title: "Cultural Event",
     image:
-      "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1501281668745-f7f57925c3b4?w=600&h=400&fit=crop",
     category: "events",
   },
 ];
